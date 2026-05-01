@@ -4,8 +4,8 @@ namespace Taller3dSemana4
 {
     internal class Scene1 : Scenes
     {
-        Player p = new Player();
-        public Situation1() : base("Arbol Ruinoso", "Un árbol gigantezco se eleva en el centro de un claro.")
+        private Player player;
+        public Scene1() : base("Arbol Ruinoso", "Un árbol gigantezco se eleva en el centro de un claro.")
         {
         }
         public override void Play()
@@ -18,12 +18,12 @@ namespace Taller3dSemana4
             string option = Console.ReadLine();
             if (option == "1")
             {
-                p.Life -= 5;
+                player.Life -= 5;
                 Console.WriteLine("Una rama se enrrosca en tu brazo.");
                 Console.WriteLine("Una semilla se aloja entre la carne.");
-                Console.WriteLine($"(vida actual {p.Life})");
+                Console.WriteLine($"(vida actual {player.Life})");
                 Console.WriteLine("Sin enbargo, consigues 10 ramas de roble.");
-                p.Madera += 10;
+                player.Madera += 10;
             }
             else
             {

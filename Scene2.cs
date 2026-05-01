@@ -4,8 +4,8 @@ namespace Taller3dSemana4
 {
     internal class Scene2 : Scenes
     {
-        Player p = new Player();
-        public Situation1() : base("Cadáver ignífugo", "Luego de deambular por horas logras divisar una figura más adelante.")
+        private Player player;
+        public Scene2() : base("Cadáver ignífugo", "Luego de deambular por horas logras divisar una figura más adelante.")
         {
         }
         public override void Play()
@@ -18,12 +18,12 @@ namespace Taller3dSemana4
             string option = Console.ReadLine();
             if (option == "1")
             {
-                p.Life -= 5;
+                player.Life -= 5;
                 Console.WriteLine("El cadaver tenía vestimenta con resistencia al fuego.");
                 Console.WriteLine("No logras divisar el collar maldito.");
-                Console.WriteLine($"(vida actual {p.Life})");
+                Console.WriteLine($"(vida actual {player.Life})");
                 Console.WriteLine("Sin enbargo, consigues 10 ramas de roble.");
-                p.Madera += 10;
+                player.Madera += 10;
             }
             else
             {

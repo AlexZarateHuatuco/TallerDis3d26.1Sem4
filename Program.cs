@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+        private Menu menu;
         static void Main(string[] args)
         {
             Menu menu = new Menu();

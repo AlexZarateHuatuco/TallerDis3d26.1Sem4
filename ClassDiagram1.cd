@@ -1,59 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
   <Class Name="Taller3dSemana4.Menu">
-    <Position X="9.25" Y="0.5" Width="1.5" />
+    <Position X="10.5" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAIAAAAAAAAABAAAAAAAAAAA=</HashCode>
       <FileName>Menu.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="player" />
+      <Field Name="scenes" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Taller3dSemana4.Player">
-    <Position X="11.25" Y="2" Width="1.5" />
+    <Position X="9" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAABAAg=</HashCode>
       <FileName>Player.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Taller3dSemana4.Scene1">
-    <Position X="9.25" Y="2" Width="1.5" />
+    <Position X="8.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAA=</HashCode>
       <FileName>Scene1.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Field Name="p" />
+      <Field Name="player" />
     </ShowAsAssociation>
   </Class>
   <Class Name="Taller3dSemana4.Scenes">
-    <Position X="7" Y="0.5" Width="1.5" />
+    <Position X="6.5" Y="1.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>Scenes.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Taller3dSemana4.Scene3">
-    <Position X="4.75" Y="2" Width="1.5" />
+    <Position X="6.5" Y="5.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAA=</HashCode>
       <FileName>Scene3.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="player" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Taller3dSemana4.Scene2">
-    <Position X="7" Y="3.5" Width="1.5" />
+    <Position X="4.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAA=</HashCode>
       <FileName>Scene2.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Field Name="p" />
+      <Field Name="player" />
     </ShowAsAssociation>
   </Class>
   <Class Name="Taller3dSemana4.Program">
-    <Position X="11.25" Y="0.5" Width="1.5" />
+    <Position X="13.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="menu" />
+    </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

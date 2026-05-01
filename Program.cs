@@ -10,6 +10,8 @@ namespace Taller3dSemana4
     {
         static void Main(string[] args)
         {
+            Menu menu = new Menu();
+            menu.Execute();
         }
     }
 }
